@@ -171,7 +171,8 @@ const Canvas = () => {
                     <button className="btn"
                         onClick={(e) => {
                             eraser()
-                        }}><BsEraserFill size={14} /></button>
+                        }}><BsEraserFill size={brushRadius} /></button>
+
                     <button className="btn"
                         onClick={(e) => {
                             pen()
